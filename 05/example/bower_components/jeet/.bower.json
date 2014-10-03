@@ -1,0 +1,15 @@
+{
+  "name": "jeet",
+  "homepage": "https://github.com/mojotech/jeet",
+  "version": "5.3.0",
+  "_release": "5.3.0",
+  "_resolution": {
+    "type": "version",
+    "tag": "v5.3.0",
+    "commit": "3f5211b62c0135a9486f00dbb5eeab3bde762f66"
+  },
+  "_source": "git://github.com/mojotech/jeet.git",
+  "_target": "~5.3.0",
+  "_originalSource": "jeet",
+  "_direct": true
+}

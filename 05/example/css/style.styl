@@ -1,0 +1,26 @@
+@import '/bower_components/jeet/stylus/jeet'
+@import 'reset.css'
+
+edit()
+
+section
+  center(1000px, 30px)
+
+aside
+  stack()
+  @media (min-width: 700px)
+    col(1/3)
+  a
+    display: block
+
+.posts
+  stack()
+  @media (min-width: 700px)
+    col(2/3)
+
+.post
+  cf()
+  img
+    col(1/3 2/3)
+  article
+    col(2/3 2/3)

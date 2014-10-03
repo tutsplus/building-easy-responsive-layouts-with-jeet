@@ -1,0 +1,48 @@
+* {
+  background: rgba(0,0,0,0.05);
+}
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+.third {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 31.3333333333333%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.third:before,
+.third:after {
+  content: '';
+  display: table;
+}
+.third:after {
+  clear: both;
+}
+.third:last-child {
+  margin-right: 0%;
+}
+.seventh {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  width: 11.714285714285728%;
+  margin-left: 0%;
+  margin-right: 3%;
+}
+.seventh:before,
+.seventh:after {
+  content: '';
+  display: table;
+}
+.seventh:after {
+  clear: both;
+}
+.seventh:last-child {
+  margin-right: 0%;
+}

@@ -1,0 +1,157 @@
+@import 'reset.css';
+* {
+  background: rgba(0,0,0,0.05);
+}
+section {
+  *zoom: 1;
+  width: auto;
+  max-width: 1000px;
+  float: none;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+section:before,
+section:after {
+  content: '';
+  display: table;
+}
+section:after {
+  clear: both;
+}
+aside {
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+aside:first-child {
+  margin-left: auto;
+}
+aside:last-child {
+  margin-right: auto;
+}
+@media (min-width: 700px) {
+  aside {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 31.3333333333333%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  aside:before,
+  aside:after {
+    content: '';
+    display: table;
+  }
+  aside:after {
+    clear: both;
+  }
+  aside:last-child {
+    margin-right: 0%;
+  }
+}
+aside a {
+  display: block;
+}
+.posts {
+  display: block;
+  clear: both;
+  float: none;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.posts:first-child {
+  margin-left: auto;
+}
+.posts:last-child {
+  margin-right: auto;
+}
+@media (min-width: 700px) {
+  .posts {
+    *zoom: 1;
+    float: left;
+    clear: none;
+    text-align: inherit;
+    padding-left: 0;
+    padding-right: 0;
+    width: 65.6666666666667%;
+    margin-left: 0%;
+    margin-right: 3%;
+  }
+  .posts:before,
+  .posts:after {
+    content: '';
+    display: table;
+  }
+  .posts:after {
+    clear: both;
+  }
+  .posts:last-child {
+    margin-right: 0%;
+  }
+}
+.post {
+  *zoom: 1;
+}
+.post:before,
+.post:after {
+  content: '';
+  display: table;
+}
+.post:after {
+  clear: both;
+}
+.post img {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 30.287648054145496%;
+  margin-left: 0%;
+  margin-right: 4.5685279187817%;
+}
+.post img:before,
+.post img:after {
+  content: '';
+  display: table;
+}
+.post img:after {
+  clear: both;
+}
+.post img:last-child {
+  margin-right: 0%;
+}
+.post article {
+  *zoom: 1;
+  float: left;
+  clear: none;
+  text-align: inherit;
+  padding-left: 0;
+  padding-right: 0;
+  width: 65.14382402707281%;
+  margin-left: 0%;
+  margin-right: 4.5685279187817%;
+}
+.post article:before,
+.post article:after {
+  content: '';
+  display: table;
+}
+.post article:after {
+  clear: both;
+}
+.post article:last-child {
+  margin-right: 0%;
+}
